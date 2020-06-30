@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <title>MOT Test Run</title>
+  <meta charset=utf-8 />
+	<script src="./assets/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+	<!--script src="web3-utils.min.js"></script-->
+	<script src="./assets/script.js"></script>
+</head>
+<body  >
+	<label id="isLogin">Login Waiting..</Label>
+	<div style="text-align:center;margin-top:-45px;">
+	<h2>MOT Contract Testing Panel</h2>
+	<h4> Please process the following task before clicking to "TEST" button"</h4>
+		<ul>
+			<li>Deploy mot.sol, mot_test.sol, mot_test-II.sol contracts in Rinkeby using metamask accounts via remix</li>
+			<li>In deployed mot.sol contract transfer ownership to the address of mot_test.sol</li>
+			<li>Enter the all three contract address in below given box and save it, then click on "TEST" button to start test</li>
+		</ul> 
+	</div>
+	<div style="text-align:center;">
+		<input id="mot" size="75" name="mot_contract" value="" placeholder="please enter mot contract address"/>
+		<button id="save1" onclick="updateContract1()">Save</button></br></br>
+		<input id="mot_test1" size="75" name="mot_contract_test1" value="" placeholder="please enter mot contract test-1 address"/>
+		<button id="save2" onclick="updateContract2()">Save</button></br></br>
+		<input id="mot_test2" size="75" name="mot_contract_test2" value="" placeholder="please enter mot contract test-2 address"/>
+		<button id="save3" onclick="updateContract3()">Save</button></br></br>
+		<button id="test" onclick="testNow()" style="width:250px;">TEST</button>
+	</div>
+	Result
+	<div style="background-color:black;height:48%;overflow:auto;">
+		<ul id="result" style="color:aqua;">
+		
+		</ul> 
+	</div>
+</body>
