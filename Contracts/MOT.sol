@@ -1,9 +1,5 @@
 /**
- *Submitted for verification at Etherscan.io on 2019-12-16
-*/
-
-/**
-* Copyright MARKETORDERS 2019
+* Copyright MARKETORDERS 2020
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy
 * of this software and associated documentation files (the "Software"), to deal
@@ -57,7 +53,7 @@ __________________________________________________________________
     => Decimals    : 18
 
 -------------------------------------------------------------------------------------------------
- Copyright (c) 2019 onwards MARKETORDERS LTD ( https://MarketOrders.net , https://MarketOrders.io)
+ Copyright (c) 2020 onwards MARKETORDERS LTD ( https://MarketOrders.net , https://MarketOrders.io)
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 -------------------------------------------------------------------------------------------------
 */
